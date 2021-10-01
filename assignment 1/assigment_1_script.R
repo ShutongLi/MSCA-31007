@@ -14,6 +14,6 @@ res <-list(Joint_distribution=joint_distribution,
            v_Marginal = v_Marginal,
            u_Conditional_v = u_Conditional_v,
            v_Conditional_u = v_Conditional_u          )
-saveRDS(res, file = paste(dataPath,'result.rds',sep = '/'))
+saveRDS(res, file = paste(datapath,'result.rds',sep = '/'))
 
   
